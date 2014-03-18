@@ -7,8 +7,9 @@ This libary supports to serialize or deserialize Opentrans Documents an parse th
 
 The example shows how simply this class works:
 
-
+<pre>
 Dim order As New Opentrans.ORDER
+
 
 order.version = Opentrans.typeOPENTRANS_version.Item21
 order.type = Opentrans.ORDERType.standard
@@ -19,7 +20,7 @@ order.ORDER_HEADER.CONTROL_INFO.GENERATOR_INFO = "COMPANY SERVICE GENERATOR"
 ....
 
 Dim orderXML as string = order.Serialize()
-
+</pre>
 
 You can download a 30 days trail version of this Libary from: Opentrans.rar
 
